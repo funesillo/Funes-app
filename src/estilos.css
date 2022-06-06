@@ -1,0 +1,25 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html , body , #root {
+    height: 100vh;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand {
+    background-color: rebeccapurple;
+    color: cadetblue;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
