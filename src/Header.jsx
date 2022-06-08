@@ -1,14 +1,11 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-const Header = () => {
+const Header = (props) => {
+
+    console.log (props.mensaje)
 
     return (
         <header>
             <h1 className="brand">Mercado mi Encargo</h1>
-            <nav className="list">
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-            </nav>
+            <p>{props.mensaje}</p>
         </header>
     )
 }
